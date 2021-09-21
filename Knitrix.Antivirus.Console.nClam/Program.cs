@@ -155,6 +155,4 @@ class Program
     {
         Console.WriteLine($"{DateTime.Now.ToShortTimeString()}   {message}");
     }
-
-   
 }
