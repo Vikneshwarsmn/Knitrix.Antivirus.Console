@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knitrix.Antivirus.Console.n
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knitrix.Antivirus.Console.MClam", "Knitrix.Antivirus.Console.MClam\Knitrix.Antivirus.Console.MClam.csproj", "{1FC039C7-6E2D-4312-9A84-3E4E217542F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knitrix.Antivirus.Console.Utilities", "Knitrix.Antivirus.Console.Utilities\Knitrix.Antivirus.Console.Utilities.csproj", "{21842BBF-5065-412A-B966-C9A3F73683AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,18 @@ Global
 		{1FC039C7-6E2D-4312-9A84-3E4E217542F5}.Release|x64.Build.0 = Release|x64
 		{1FC039C7-6E2D-4312-9A84-3E4E217542F5}.Release|x86.ActiveCfg = Release|x86
 		{1FC039C7-6E2D-4312-9A84-3E4E217542F5}.Release|x86.Build.0 = Release|x86
+		{21842BBF-5065-412A-B966-C9A3F73683AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21842BBF-5065-412A-B966-C9A3F73683AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21842BBF-5065-412A-B966-C9A3F73683AF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{21842BBF-5065-412A-B966-C9A3F73683AF}.Debug|x64.Build.0 = Debug|Any CPU
+		{21842BBF-5065-412A-B966-C9A3F73683AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{21842BBF-5065-412A-B966-C9A3F73683AF}.Debug|x86.Build.0 = Debug|Any CPU
+		{21842BBF-5065-412A-B966-C9A3F73683AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21842BBF-5065-412A-B966-C9A3F73683AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21842BBF-5065-412A-B966-C9A3F73683AF}.Release|x64.ActiveCfg = Release|Any CPU
+		{21842BBF-5065-412A-B966-C9A3F73683AF}.Release|x64.Build.0 = Release|Any CPU
+		{21842BBF-5065-412A-B966-C9A3F73683AF}.Release|x86.ActiveCfg = Release|Any CPU
+		{21842BBF-5065-412A-B966-C9A3F73683AF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

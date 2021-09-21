@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Knitrix.Antivirus.Console.nClam</RootNamespace>
     <AssemblyName>Knitrix.Antivirus.Console.nClam</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -56,6 +56,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Knitrix.Antivirus.Console.Utilities\Knitrix.Antivirus.Console.Utilities.csproj">
+      <Project>{21842bbf-5065-412a-b966-c9a3f73683af}</Project>
+      <Name>Knitrix.Antivirus.Console.Utilities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\nClam\nClam.csproj">
       <Project>{4F90429F-3CB1-4972-AEC1-3A06FA8841D1}</Project>
       <Name>nClam</Name>
