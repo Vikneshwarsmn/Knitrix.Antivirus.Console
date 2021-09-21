@@ -8,8 +8,8 @@
     <ProjectGuid>{BF7B4064-77F0-4521-BB35-EA8A69C058D1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Knitrix.Antivirus.Console</RootNamespace>
-    <AssemblyName>Knitrix.Antivirus.Console</AssemblyName>
+    <RootNamespace>Knitrix.Antivirus.Console.nClam</RootNamespace>
+    <AssemblyName>Knitrix.Antivirus.Console.nClam</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
